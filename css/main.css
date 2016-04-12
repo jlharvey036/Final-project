@@ -1,0 +1,149 @@
+/*
+Project Name: JYS Takwondo
+Client: Daniels,T
+Author: Justin Harvey
+Developer @GA in La
+*/
+
+*{
+  -moz-box-sizing: border-box; 
+     -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+
+body {
+  font-size: 26px;
+  line-height: 1.4;
+  font-family: 'Arvo', serif;
+  font-weight: 300;
+}
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+.logo {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+header {
+  background: url(../img/rockheader.jpg) no-repeat center;
+  padding: 25px 0;
+}
+header .logo {
+  color:  #ffffff;
+  float: center;
+  display: inline-block;
+
+}
+
+header nav {
+  text-align: left;
+}
+header nav ul li {
+  display: inline-block;
+  margin: 0 0 0 20px;
+  font-size: 18px;
+}
+header nav ul li a {
+  color:  #ffffff;
+  text-decoration: none;
+}
+#Loop {
+  background: url(../img/wall.jpg) no-repeat;
+  background-size: cover;
+  padding: 30px 0 30px;
+}
+.grid-img {
+  height: 60vh;
+}
+.grid1 {
+  background: url(../img/Jyslogo.jpg) no-repeat center;
+}
+.grid2 {
+  background: url(../img/demo.jpg) no-repeat center;
+}
+.grid3 {
+  background: url(../img/lessons.jpg) no-repeat center;
+}
+.grid4 {
+  background: url(../img/stretch.jpg) no-repeat center;
+}
+.grid5 {
+  background: url(../img/TKDMLB.jpg) no-repeat center;
+}
+.grid6 {
+  background: url(../img/TeamJ.jpg) no-repeat center;
+}
+
+#watch-us {
+  background: url(../img/floor.jpg) no-repeat;
+  background-size: cover;
+  padding: 50px 0 50px;
+  color: #fff;
+  text-align: center;
+}
+.email-button {
+  border-radius: 5px;
+  font-weight: 800;
+  padding: 10px 0;
+  width: 280px;
+  font-size: 28px;
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+}
+footer {
+  background: url(../img/rockheader.jpg) no-repeat center;
+  padding: 65px 0 0px;
+}
+#container1 {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  width: 70%;
+}
+.address {
+  vertical-align: top;
+}
+footer .logo {
+  font-size: 30px;
+  color: #c60c30;
+  margin-bottom: 75px;
+  text-align: center;
+}
+footer ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 26px 75px;
+
+}
+footer p {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 600;
+}
+#copyright p {
+  padding: 0 0 5px;
+  background: black;
+  font-size: 14px;
+  color:  #ffffff;
+  font-weight: 600;
+  text-align: left;
+  margin: 0;
+}
+.slick-next {
+  right: 25px;
+
+}
+.slick-prev {
+  left: 25px;
+  z-index: 100;
+}
+
+
+
+
+
+
+
